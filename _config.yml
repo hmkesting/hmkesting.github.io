@@ -3,3 +3,6 @@ theme: minima
 header_pages:
   - about.md
   - portfolio.md
+
+  minima:
+  skin: dark
