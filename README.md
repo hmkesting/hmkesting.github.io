@@ -1,4 +1,4 @@
-tile: Helen Kesting
+title: Helen Kesting
 ### Geospatial Analyst
 ### M.S. Ecology, Evolution, and Conservation Biology
 
