@@ -1,4 +1,7 @@
-title: null
+title                    : "Helen Kesting"
+title_separator          : "-"
+
+description              : "Geospatial Analyst and Landscape Ecologist"
 email: helenkesting@gmail.com
 
 theme: minima
