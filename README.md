@@ -1,5 +1,5 @@
 
-### Geospatial Analyst
+### Geospatial Analyst and Landscape Ecologist
 ### M.S. Ecology, Evolution, and Conservation Biology
 
 #### About Me
