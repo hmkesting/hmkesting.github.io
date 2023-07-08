@@ -4,7 +4,7 @@
 
 I am a geospatial analyst and programmer with 5 years of experience working with GIS and remote sensing tools. Please see <a href="/assets/images/KestingResume.pdf" class="image fit"><img target="_blank">my resume</a> or scroll down for examples of my work.  
 
-**Booststraping and Numerical Solution Analysis** 
+## Booststraping and Numerical Solution Analysis
 
 &ensp; Evapotranspiration (ET) is the flux of water from the surface to the atmosphere. It includes evaporation as well as transpiration, which is water that is taken up by plants and then lost through leaf surfaces. ET affects water availability and can be an indicator of vegetation health. For this analysis, we focused on the seasonal sourcing of ET from precipitation that falls during summer (May - September) versus winter (October - April). Specifically, we asked how annual fluxes of water from summer and winter precipitation to ET vary depending on summer and winter precipitation amounts. Using isotopes of hydrogen and oxygen, we conducted end-member splitting analysis (Kirchner and Allen, 2020). However, this method relies on several assumptions that make it unsuitable for analyzing data at the annual timescale.   
 
