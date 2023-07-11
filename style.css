@@ -39,8 +39,10 @@ nav ul li a:hover {
   margin-right: 10px;
 }
 
-figure figcaption {
+.figure figcaption {
     border: 1px dotted blue;
     text-align: left;
+    font-style: italic;
+    float: left;
 }
 
