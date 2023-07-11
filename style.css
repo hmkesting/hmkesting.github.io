@@ -35,5 +35,7 @@ nav ul li a:hover {
   height: auto;
   display: block;
   margin: 0 auto;
+  float: left;
+  margin-right: 10px;
 }
 
