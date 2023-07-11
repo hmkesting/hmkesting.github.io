@@ -30,3 +30,11 @@ nav ul li a:hover {
   height: auto;
   max-width: 100%;
 }
+
+.about-me-image {
+  width: 300px; /* Adjust the width as per your preference */
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
