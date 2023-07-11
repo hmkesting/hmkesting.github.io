@@ -41,5 +41,6 @@ nav ul li a:hover {
 .figure {
     text-align: left;
     float: left;
+    display: inline;
 }
 
