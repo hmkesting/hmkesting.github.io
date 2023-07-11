@@ -46,5 +46,6 @@ figure {
 figcaption {
   display: table-caption;
   caption-side: bottom;
+  display: table-caption
 }
 
