@@ -10,7 +10,7 @@ nav ul li {
 
 nav ul li a {
   display: block;
-  padding: 40px;
+  padding: 20px;
   text-decoration: none;
   color: #000;
   background-color: #eee;
@@ -31,7 +31,7 @@ nav ul li a:hover {
 }
 
 .whitney-image {
-  width: 20px; /* Adjust the width as per your preference */
+  width: 80px; /* Adjust the width as per your preference */
   height: auto;
   display: block;
   margin: 0 auto;
