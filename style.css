@@ -26,13 +26,12 @@ nav ul li a:hover {
 }
 
 .banner img {
-  width: 100%;
   height: auto;
   max-width: 100%;
 }
 
-.about-me-image {
-  width: 300px; /* Adjust the width as per your preference */
+.awhitney-image {
+  width: 200px; /* Adjust the width as per your preference */
   height: auto;
   display: block;
   margin: 0 auto;
