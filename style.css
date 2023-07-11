@@ -40,6 +40,7 @@ nav ul li a:hover {
 
 figure {
   float: left;
+  display: table-caption;
 }
 
 figcaption {
