@@ -44,6 +44,6 @@ figure {
 }
 
 figcaption {
-  caption-side: inline-start;
+  caption-side: below;
 }
 
