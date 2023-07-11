@@ -19,3 +19,14 @@ nav ul li a {
 nav ul li a:hover {
   background-color: #ccc;
 }
+
+.banner {
+  width: 100%;
+  text-align: center;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
