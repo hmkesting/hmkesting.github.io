@@ -38,9 +38,8 @@ nav ul li a:hover {
   margin-right: 10px;
 }
 
-.figure {
-    text-align: left;
-    float: left;
-    display: inline;
+figure {
+  float: right;
+  width: 30%;
 }
 
