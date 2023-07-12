@@ -45,6 +45,7 @@ nav ul li a:hover {
 
 figure {
   float: left;
+  width: 400px;
 }
 
 figcaption {
