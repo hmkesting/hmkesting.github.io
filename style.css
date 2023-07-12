@@ -52,3 +52,8 @@ figcaption {
     width: 400px;
 }
 
+.et-image {
+  width: 400px; /* Adjust the width as per your preference */
+  height: auto;
+}
+
