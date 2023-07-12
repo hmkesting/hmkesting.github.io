@@ -45,10 +45,10 @@ nav ul li a:hover {
 
 figure {
   float: left;
-  width: 400px;
 }
 
 figcaption {
   caption-side: below;
+    width: 400px;
 }
 
