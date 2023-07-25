@@ -7,6 +7,16 @@ header {
   text-align: center;
   z-index: 1;
 }
+
+  .banner {
+  width: 100%;
+  text-align: center;
+}
+
+.banner img {
+  height: auto;
+  max-width: 100%;
+}
 }
 
 body {
@@ -35,16 +45,6 @@ nav ul li a {
 
 nav ul li a:hover {
   background-color: #ccc;
-}
-
-.banner {
-  width: 100%;
-  text-align: center;
-}
-
-.banner img {
-  height: auto;
-  max-width: 100%;
 }
 
 .whitney-image {
