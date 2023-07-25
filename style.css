@@ -15,7 +15,7 @@ header {
 
 .header-text {
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -29,7 +29,7 @@ header {
   background: #fff;
   background-clip: text;
   -webkit-background-clip: text;
-  padding: 5px;
+  padding: 1px;
 }
 
 .header-line2 {
@@ -39,7 +39,7 @@ header {
   background: #fff;
   background-clip: text;
   -webkit-background-clip: text;
-  padding: 5px;
+  padding: 1px;
 }
 
 body {
