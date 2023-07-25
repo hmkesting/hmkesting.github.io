@@ -48,6 +48,10 @@ body {
   padding: 70px;
 }
 
+nav {
+  margin-top: 20px;
+}
+
 nav ul {
   list-style-type: none;
   padding: 0;
