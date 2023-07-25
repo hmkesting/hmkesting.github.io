@@ -35,6 +35,8 @@ header {
 .header-line2 {
   font-size: 24px;
   color: #000;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.8), 4px 4px 4px rgba(0, 0, 0, 0.8);
+  background: #fff;
 }
 
 body {
