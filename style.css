@@ -5,6 +5,7 @@ header {
   .banner {
   position: relative;
   text-align: center;
+  margin: -20px;
 }
 
 .banner img {
