@@ -15,9 +15,8 @@ header {
 
 .header-text {
   position: absolute;
-  top: 60%;
-  left: 20%;
-  /* transform: translate(-50%, -50%); */
+  top: 20%;
+  left: 50%;
   text-align: center;
 }
 
@@ -35,7 +34,7 @@ header {
 .header-line2 {
   font-size: 24px;
   color: #000;
-  text-shadow: 0px 0px 10px #FFFFFF;
+  text-shadow: 3px 3px 5px #FFFFFF, -3px -3px 5px #FFFFFF;
   background: #fff;
   background-clip: text;
   -webkit-background-clip: text;
