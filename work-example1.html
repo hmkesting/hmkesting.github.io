@@ -64,17 +64,17 @@
       </p>
     <br>
     <br>
+      <figure>
+        <img src="assets/images/LowHighEndsplit.svg" width=700>
+        <figcaption style="width:700px;"><b>Figure 3.</b> Fractions and amounts of summer and winter precipitation routed to evapotranspiration, summer runoff, and winter runoff 
+          for years with less than versus more than the median summer precipitation amount. Data are simulated.</figcaption>
+      </figure>
       <p>Another option is to group years by the amount of summer precipitation and analyze differences between the groups. By grouping
         multiple years, we can assume that changes in storage are negligible compared to total flux amounts. We calculate the weighted 
         average isotope values for each group before calculating the partitioning fractions, so we aren't assuming that all inputs 
         or outputs are confined to a single year. However, this method doesn't show how partitioning changes over a range of values and 
         we were unable to detect many statistically significant differences between the two groups.
-        <figure>
-        <img src="assets/images/LowHighEndsplit.svg" width=500>
-        <figcaption style="width:550px;"><b>Figure 3.</b> Fractions and amounts of summer and winter precipitation routed to evapotranspiration, summer runoff, and winter runoff 
-          for years with less than versus more than the median summer precipitation amount. Data are simulated.</figcaption>
-      </figure>
-      /p>
+      </p>
       <p>To solve this problem, we developed a bootstrapping numerical solution analysis. To find a numerical solution, we replaced every 
         variable in the end-member splitting equations with the linear regression equation of that variable against the x-axis (either 
         summer of winter precipitation). We conducted bootstrapping by repeating this process with a random sample of the data. We conducted 
