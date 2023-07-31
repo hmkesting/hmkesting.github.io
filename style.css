@@ -15,9 +15,9 @@ header {
 .header-text {
   position: absolute;
   top: 5%;
-  left: 50%; 
+  /* left: 50%; */
   /* transform: translate(-50%, -50%); */
-  /* text-align: center;  try switching this on with the line 2 above off */
+  text-align: center;  
 }
 
 .header-line1 {
