@@ -92,8 +92,21 @@ figcap1 {
     width: 400px;
 }
 
-.et-image {
+.longterm-image {
   width: 400px; /* Adjust the width as per your preference */
   height: auto;
+  margin: 0 auto;
+}
+
+.assumptions-image {
+  width: 600px; /* Adjust the width as per your preference */
+  height: auto;
+  margin: 0 auto;
+}
+
+.lowhigh-image {
+  width: 500px; /* Adjust the width as per your preference */
+  height: auto;
+  margin: 0 auto;
 }
 
