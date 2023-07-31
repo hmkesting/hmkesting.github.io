@@ -18,7 +18,10 @@
 
   <main>
     <section>
-      <h1>Booststrapping and Numerical Solution Analysis</h1>
+      <br>
+      <br>
+      <br>
+      <h1>Booststrapping and Numerical Solution</h1>
       <figure>
         <img class="et-image" src="assets/images/LongtermEndsplit.svg">
         <figcaption><b>Figure 1.</b>Fractions and amounts of summer and winter precipitation routed to evapotranspiration, summer runoff, and winter runoff. Data are fabricated.</figcaption>
@@ -32,13 +35,25 @@
         make it unsuitable for analyzing data at the annual timescale.   
         </p>
       <p>The end-member splitting method assumes that all inputs and outputs are accounted for. This becomes problematic at annual timescales because we don't know how much precipitation 
-        from previous years is supplying runoff in a given year. One way of addressing this is to examine the results under a variety of contradicting assumption and look for consistent trends.
+        from previous years is supplying runoff in a given year. One way of addressing this is to examine the results under a variety of contradicting assumption and look for consistent trends
+        as shown in figure 3. However, trends are rarely consistent and this becomes difficult to interpret.
         <figure>
         <img class="et-image" src="assets/images/f_ET_Assumptions.svg">
         <figcaption><b>Figure 2.</b>Plots of the fraction of evapotranspiration sourced from summer precipitation under several assumptions. "Lag 0" means that precipitation isotope values from 
           the year of interested are used to calculate the y-axis value. "Lag 1" means that precipitation isotope values from the previous year are used to calculate the y-axis value. "Mean" 
           means that the long-term average precipitation isotope values are used to calculate the y-axis value. Data are fabricated.</figcaption>
       </figure>
+      </p>
+      <p>Another option is to group years by the amount of summer precipitation and analyze differences between the groups. We calculate the weighted average isotope signatures
+        for each group before calculating the partitioning fractions, so we aren't assuming that all inputs or outputs are confined to a single year. However, this method doesn't show how 
+        partitioning changes over a range of values and we were unable to detect many statistically significant differences.
+        <figure>
+        <img class="et-image" src="assets/images/LowHighEndsplit.svg">
+        <figcaption><b>Figure 2.</b>Plots of the fraction of evapotranspiration sourced from summer precipitation under several assumptions. "Lag 0" means that precipitation isotope values from 
+          the year of interested are used to calculate the y-axis value. "Lag 1" means that precipitation isotope values from the previous year are used to calculate the y-axis value. "Mean" 
+          means that the long-term average precipitation isotope values are used to calculate the y-axis value. Data are fabricated.</figcaption>
+      </figure>
+      /p>
       <p>To solve this problem, we developed a bootstrapping numerical solution analysis. To find a numerical solution, we replaced every 
         variable in the end-member splitting equations with the linear regression equation of that variable against the x-axis (either 
         summer of winter precipitation). We conducted bootstrapping by repeating this process with a random sample of the data. We conducted 
