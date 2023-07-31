@@ -89,13 +89,14 @@ figcaption {
 
 figcap1 {
   caption-side: below;
-    width: 400px;
+    width: 500px;
 }
 
 .longterm-image {
-  width: 400px; /* Adjust the width as per your preference */
+  width: 500px; /* Adjust the width as per your preference */
   height: auto;
   margin: 0 auto;
+  margin-right: 10px;
 }
 
 .assumptions-image {
