@@ -50,6 +50,7 @@
     <br>
     <br>
     <br>
+    <br>
     <section>
       <p>The end-member splitting method assumes that all inputs and outputs are accounted for. This becomes problematic at annual timescales because we don't know how much precipitation 
         from previous years is supplying runoff. One way of addressing this is to examine the results under a variety of contradicting assumption and look for consistent trends
@@ -64,6 +65,8 @@
       </p>
     <br>
     <br>
+    <br>
+    <br>
       <figure>
         <img src="assets/images/LowHighEndsplit.svg" width=700>
         <figcaption style="width:700px;"><b>Figure 3.</b> Fractions and amounts of summer and winter precipitation routed to evapotranspiration, summer runoff, and winter runoff 
@@ -75,6 +78,10 @@
         or outputs are confined to a single year. However, this method doesn't show how partitioning changes over a range of values and 
         we were unable to detect many statistically significant differences between the two groups.
       </p>
+      <br>
+      <br>
+      <br>
+      <br>
       <p>To solve this problem, we developed a bootstrapping numerical solution analysis. To find a numerical solution, we replaced every 
         variable in the end-member splitting equations with the linear regression equation of that variable against the x-axis (either 
         summer of winter precipitation). We conducted bootstrapping by repeating this process with a random sample of the data. We conducted 
