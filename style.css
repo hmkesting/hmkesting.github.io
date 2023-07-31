@@ -28,8 +28,6 @@ header {
   background: #fff;
   background-clip: text;
   -webkit-background-clip: text;
-  padding: 1px;
-  text-align: center;
 }
 
 .header-line2 {
@@ -39,8 +37,6 @@ header {
   background: #fff;
   background-clip: text;
   -webkit-background-clip: text;
-  padding: 1px;
-  text-align: center;
 }
 
 body {
