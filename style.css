@@ -45,6 +45,12 @@ body {
   padding: 70px;
 }
 
+body2 {
+  font-family: Arial, sans-serif;
+  font-size: 18px; /* Adjust the font size as per your preference */
+  padding: 100px;
+}
+
 nav {
   margin-top: 90px;
 }
