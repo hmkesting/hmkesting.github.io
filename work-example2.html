@@ -27,7 +27,7 @@
 	   contiguous U.S. This is the first step of a larger project to analyze precipitation and runoff 
 	   isotopes at sites across the country which ultimately addresses questions about ecosystem water 
 	   use and vulnerability to seasonal drought. Here, we’ll just walk through the process of kriging 
-	   January precipitation isotope values (δ2H). The raw data shown below were obtained from 
+	   January precipitation isotope values (δ<sup>2</sup>H). The raw data shown below were obtained from 
 	   waterisotopes.org.
         </p>
       <center>
@@ -52,7 +52,8 @@
 	<center>
         <img src="assets/images/variogram.svg" width=700>
         <figcaption style="width:700px;"><b>Figure 2.</b> A binned variogram with distance in kilometers on 
-	the x-axis shows that data points within roughly 7km exhibit spatial autocorrelation.</figcaption>
+	the x-axis shows that data points within roughly 7km exhibit significant spatial autocorrelation 
+	since these points fall outside the envelope.</figcaption>
 	</center>
     </section>
     <br>
@@ -65,11 +66,11 @@
       <p>I kriged the values with elevation as a covariate, then plotted the 5-fold cross validation 
 	residuals spatially. There tended to be more negative residuals further north and more positive 
 	residuals further south, so I decided to include latitude as a covariate in the model.
-        <figure><center>
+        <center>
         <img src="assets/images/elev_5cv.svg" width=700>
         <figcaption style="width:700px;"><b>Figure 3.</b> A bubble plot showing the residuals of 5-fold 
 	cross-validation from a kriging model with elevation as a covariate.</figcaption>
-      </center></figure>
+      </center>
       </p>
     <br>
     <hr color="DodgerBlue"
@@ -81,12 +82,12 @@
 	Overall, I created 8 models and the one with the lowest AIC was an additive spatial model with 
 	covariates of elevation and latitude. Below is the result of kriging onto a spatial points grid.
       </p>
-      <figure><center>
+      <center>
         <img src="assets/images/krige_out.svg" width=700>
         <figcaption style="width:700px;"><b>Figure 4.</b> The model output shows predictions ranging 
 	from below -200 to above 0. Areas at higher elevations and further north tend to 
 	have lower January precipitation isotope values. </figcaption>
-      </center></figure>
+      </center>
       <br>
 	<hr color="DodgerBlue"
         width="70%" 
@@ -95,12 +96,12 @@
       <br>
       <p>Here, we evaluate error by plotting the observed values against the predicted values.
       </p>
-      <figure><center>
+      <center>
         <img src="assets/images/obs_pred_5cv.svg" width=700>
         <figcaption style="width:700px;"><b>Figure 5.</b> Scatter plot of observed values versus values 
 	predicted from 5-fold cross-validation with positive trendline and 95% confidence interval 
 	(shaded area).</figcaption>
-      </center></figure>
+      </center>
       <br>
     </section>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
