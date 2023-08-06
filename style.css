@@ -15,7 +15,8 @@ header {
 .header-text {
   position: absolute;
   top: 2%;
-  transform: translate(50%); 
+  transform: translate(50%);
+  text-align: center;
 }
 
 .header-line1 {
