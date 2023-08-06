@@ -1,5 +1,8 @@
 header {
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
   .banner {
@@ -13,7 +16,7 @@ header {
 }
 
 .header-text {
-  position: absolute;
+  position: relative;
   top: 2%;
   /* transform: translate(50%); */
   text-align: center;
