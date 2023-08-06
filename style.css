@@ -82,6 +82,12 @@ nav ul li a:hover {
   background-color: #ccc;
 }
 
+.bootstrapping {
+  position: relative;
+  top: -20px;
+  left: -5px;
+}
+
 .whitney-image {
   /* width: 300px;  Adjust the width as per your preference */
   height: auto;
