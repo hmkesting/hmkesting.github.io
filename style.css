@@ -19,7 +19,7 @@ header {
 margin-right: auto;
 left: 0;
 right: 0;
-top: -15px;
+top: -5px;
 text-align: center;
 }
 
@@ -41,7 +41,7 @@ text-align: center;
   background-clip: text;
   -webkit-background-clip: text;
   position: relative;
-  bottom: 10px
+  bottom: 20px
 }
 
 body {
