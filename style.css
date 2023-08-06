@@ -40,6 +40,8 @@ text-align: center;
   background: #fff;
   background-clip: text;
   -webkit-background-clip: text;
+  position: relative;
+  bottom: 10px
 }
 
 body {
