@@ -16,7 +16,7 @@ header {
 }
 
 .header-text {
-  position: relative;
+  position: absolute;
   top: 2%;
   /* transform: translate(50%); */
   text-align: center;
