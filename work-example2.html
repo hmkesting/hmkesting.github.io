@@ -28,7 +28,8 @@
 	   contiguous U.S. This is the first step of a larger project to analyze precipitation and runoff 
 	   isotopes at sites across the country which ultimately addresses questions about ecosystem water 
 	   use and vulnerability to seasonal drought. Here, we’ll just walk through the process of kriging 
-	   January precipitation isotope values (δ<sup>2</sup>H). The raw data shown below were obtained from 
+	   January precipitation isotope values (δ<sup>2</sup>H). Kriging is an interpolation method which predicts
+	   unknown values as a weighted average of nearby known values. The raw data shown below were obtained from 
 	   waterisotopes.org.
         </p>
       <center>
@@ -43,12 +44,12 @@
         align="center">
       <br> 
       <p>Moran’s I statistic showed the presence of spatial autocorrelation with a value of 0.34, meaning 
-	that similar values tend to be clustered. I conducted a variogram analysis. I manually limited the 
+	that similar values tend to be clustered. I plotted a variogram which shows how similar values at pairs of points tend to be depending on the distance between them. I manually limited the 
 	maximum range, then fit three variogram models: gaussian (blue), spherical (red), and exponential 
 	(yellow). In black, I also plotted the Monte Carlo envelope which shows the upper and lower bounds 
 	of a 95% confidence interval based on 1000 permutations of the data. The gaussian and spherical 
 	variogram models performed similarly well, but I moved forward with the gaussian model because it 
-	had a lower RMSE.   
+	had a lower RMSE (a measure of error).   
         </p>
 	<center>
         <img src="assets/images/variogram.svg" width=700>
@@ -65,7 +66,9 @@
     <section>
       <br>
       <p>I kriged the values with elevation as a covariate, then plotted the 5-fold cross validation 
-	residuals spatially. There tended to be more negative residuals further north and more positive 
+	residuals spatially. To create this plot, the data were split into 5 random groups and each group was 
+	predicted using a model trained on the remaining 4/5 of the data. The difference between the predicted and observed data
+	is the residual which is represented in the plot by the point size. There tended to be more negative residuals further north and more positive 
 	residuals further south, so I decided to include latitude as a covariate in the model.
         <center>
         <img src="assets/images/elev_5cv.svg" width=700>
@@ -80,7 +83,7 @@
         align="center">
       <br>
 	<p>
-	Overall, I created 8 models and the one with the lowest AIC was an additive spatial model with 
+	Overall, I created 8 models and the one with the lowest AIC (a measure of predictive power) was an additive spatial model with 
 	covariates of elevation and latitude. Below is the result of kriging onto a spatial points grid.
       </p>
       <center>
